@@ -1,0 +1,64 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HTML and Body */
+  html,
+  body {
+    height: 100%;
+    background: linear-gradient(to right, blue, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  /* Container Styling */
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+  }
+  
+  /* Input Field Styling */
+  .zipcode {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  /* Button Styling */
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Output Container Styling */
+  .output-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .city_name, .temperature {
+    font-size: 3em;
+    line-height: 1.2em;
+    color: white;
+  }
+  
